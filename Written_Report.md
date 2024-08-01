@@ -175,6 +175,7 @@ test_accuracy_svm = accuracy_score(y_test, y_test_pred_svm)
 ## Results Section 
 
 ### Logistic Regression Results
+
 - Train Accuracy: 0.77697890625
 - Test Accuracy: 0.77406875
 
@@ -206,6 +207,7 @@ Test Confusion Matrix:
  [ 32772 127734]]
 
 ### SVM Results
+
 SVM Train Accuracy: 1.0
 SVM Test Accuracy: 0.625
 
