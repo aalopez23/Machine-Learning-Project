@@ -237,3 +237,22 @@ SVM Train Confusion Matrix:
 SVM Test Confusion Matrix:
 [[10 11]
  [ 4 15]]
+
+
+## Discussion Section
+
+### Logistic Regression Model
+This was chosen as the initial model because of its simplicity. It provided a good baseline to compare against my other model. The logistic regression model was training on the 1.6 million tweet dataset. Initially with a smaller version it was overfitted, however, once the full dataset was used, the model balanced its performance to about 77% accuracy on both training and testing datasets. The logistic regression model was able to generalize well however, i wish we couldve achieved a higher accuracy. I believe my results are believable and are close to my expectations. Logistic regression performs well with enough data, and test and training accuracies show that the model generalized correclty. Some shortcomings, may have came from not being able to calculate non-linear relationships in the data.
+
+### SVM Model
+This was chosen for its ability to handle non-linear relationships. SVM's are able to prevent overfitting which my initial smaller models suffered with. The SVM model when trained on the smaller subset also showed overfitting, and struggled to generalize data. The SVM was trained on the 1.6 million tweet dataset and has been extremly time-consuming run-time wise. I left it to run overnight and will update if any success is made. I believe that my initial data was overfitting which is common when there is not enough data. With more data the SVM will generalize better. Hopefully the running results will prove me correct. Some shortcomings would be the computational expense of the SVM, this can be extremly long and it may still not be accurate or well-fitted. 
+
+## Conclusion
+This project allowed me to go through developing a sentiment machine learning model. The initial model of logistic regression was a good starting point due to its simplicity. It allowed for a basis to compare to other models. Within the full dataset it was accurate and well-fitted. With the addition of a SVM model, we did this to try and fight against overfitting and deal with non-linear relationships. The expectation is that on the larger model the SVM will also do better. 
+
+Some future directions i would go to are using more advanced models like neural networks or Naive Bayes models. We could potentially add some hypertuning like grid or random search in order to enhance model performance. This wouldve potentially aided in the running of the SVM. The last thing i could think of is trying to find a real time way to run this on social media platforms. This would make it a lot more usable in modern day worl and could be used as a bot to monitor sentiment on social media platforms. 
+
+Overall, Each step provided me with new insights, this led me to make better decisions regarding selecting a model and preproccessing techniques. I was happy with the performance of the logistic regression model as it had a good performance and was well-fitted. The SVM has showed me that i need to put more importance into fine tuning and being careful with computational resources.
+
+## Statement of Collaboration
+Antonio Lopez: Bossman: Data exploration, preprocessing, model training, evaluation, and report writing.
