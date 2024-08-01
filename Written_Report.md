@@ -172,4 +172,66 @@ train_accuracy_svm = accuracy_score(y_train, y_train_pred_svm)
 test_accuracy_svm = accuracy_score(y_test, y_test_pred_svm)
 ```
 
-   
+## Results Section 
+
+### Logistic Regression Results
+- Train Accuracy: 0.77697890625
+- Test Accuracy: 0.77406875
+
+Train Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.79      0.76      0.77    640506
+           4       0.77      0.80      0.78    639494
+
+    accuracy                           0.78   1280000
+   macro avg       0.78      0.78      0.78   1280000
+weighted avg       0.78      0.78      0.78   1280000
+
+Test Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.79      0.75      0.77    159494
+           4       0.76      0.80      0.78    160506
+
+    accuracy                           0.77    320000
+   macro avg       0.77      0.77      0.77    320000
+weighted avg       0.77      0.77      0.77    320000
+
+Train Confusion Matrix:
+[[483897 156609]
+ [128858 510636]]
+Test Confusion Matrix:
+[[119968  39526]
+ [ 32772 127734]]
+
+### SVM Results
+SVM Train Accuracy: 1.0
+SVM Test Accuracy: 0.625
+
+SVM Train Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        79
+           4       1.00      1.00      1.00        80
+
+    accuracy                           1.00       159
+   macro avg       1.00      1.00      1.00       159
+weighted avg       1.00      1.00      1.00       159
+
+SVM Test Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.71      0.48      0.57        21
+           4       0.58      0.79      0.67        19
+
+    accuracy                           0.62        40
+   macro avg       0.65      0.63      0.62        40
+weighted avg       0.65      0.62      0.62        40
+
+SVM Train Confusion Matrix:
+[[79  0]
+ [ 0 80]]
+SVM Test Confusion Matrix:
+[[10 11]
+ [ 4 15]]
