@@ -1,7 +1,7 @@
-# Milestone-2 
+# Sentiment Machine Learning Model
 
 ## JupyterNotebook Link
-https://colab.research.google.com/drive/1w8f1IqjS9Dk7cO-5kUUaAtw-ux4vd8hW?usp=sharing
+[https://colab.research.google.com/drive/1w8f1IqjS9Dk7cO-5kUUaAtw-ux4vd8hW?usp=sharing](https://colab.research.google.com/drive/1w8f1IqjS9Dk7cO-5kUUaAtw-ux4vd8hW?usp=sharing)
 
 ## Environment Setup
 Must have the following libraries installed:
