@@ -54,3 +54,6 @@ weighted avg       0.57      0.57      0.57        40
 Support Vector Machine: Can be used to find a boundary between classes with different kernels.
 Decision Tree: Can capture non-linear relationships, and can be used to reduce overfitting. 
 Neural Network: Can be used for large datasets, and can be used to reduce overfitting.
+
+##Conclusion
+The inital logistic regression model has shown to be overfitting. The training accuracy is 1.0 which shows that the model has memorized the data. When this is used towards the test data, it is significantly lower at 0.575, which means that the model does not do well with unseen data. Some improvements that could be made is to implement different features. we could add cross-validation to make sure that the model generalizes well. We could use a SVM machine to try and fight the overfitting and better focus on non-linear relationships. 
