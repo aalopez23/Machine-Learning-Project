@@ -1,4 +1,4 @@
-  #Milestone-2 
+# Milestone-2 
 
 ## JupyterNotebook Link
 https://colab.research.google.com/drive/1w8f1IqjS9Dk7cO-5kUUaAtw-ux4vd8hW?usp=sharing
@@ -20,9 +20,9 @@ pip install pandas matplotlib seaborn scikit-learn
 
 In order to preprocess our data, normally we would fill gaps in our data, but because our dataset does not contain any we will skip this step. So, we will first sclae the features in order to make them easier to compare. Then convert the score variable and text into a format that can be easily manipulated by our machine learning model. 
 
-#Milestone 3
+# Milestone 3
 
-##Where does the model fit in the fitting graph
+## Where does the model fit in the fitting graph
 
 Test Accuraacy: 1.0
 Test Accuracy: 0.575
@@ -50,7 +50,7 @@ Test Classification Report
 weighted avg       0.57      0.57      0.57        40
 ```
 
-##Next Models to Consider 
+## Next Models to Consider 
 Support Vector Machine: Can be used to find a boundary between classes with different kernels.
 Decision Tree: Can capture non-linear relationships, and can be used to reduce overfitting. 
 Neural Network: Can be used for large datasets, and can be used to reduce overfitting.
