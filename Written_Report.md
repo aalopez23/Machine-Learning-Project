@@ -22,8 +22,7 @@
    In the modern world, social media is a huge and scary thing. Understanding sentiment is crucial for various applications like research, political campaigns, and customer service. Twitter the social media company we know and love, is one of the largest social media platforms. They offered a lot of their data for sentiment analysis. The goal of this project was to develop a machine learning model to classify different tweets based off their sentiment. Sentiment models can automate important task such as, monitoring public post, improving customer service, and maybe most importantly the moderation of content to make social media a safe online space. 
    Twitter recently aquired by Elon Musk, and renamed X resulted in a lot of layoffs at the company. This increased the importance of automating task such as content monitorization which he said was his main cause of employment. A sentiment analysis model like the one I built could help in monitoring content on social media platforms, forums, and gaming chats. Ensuring that online spaces are safe and healthy as we can make them. 
 ## Figures
-
-*Include any relevant figures here with appropriate legends and descriptions.*
+![image](https://github.com/user-attachments/assets/d3bff358-f5af-4846-b7f4-b36c2be5fa91)
 
 ## Methods Section
 
