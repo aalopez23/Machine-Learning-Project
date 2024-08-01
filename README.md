@@ -1,23 +1,21 @@
-# Data Analysis and Preprocessing
+#Milestone-2 
 
-## Top Section with Setup Commands
+## JupyterNotebook Link
+https://colab.research.google.com/drive/1w8f1IqjS9Dk7cO-5kUUaAtw-ux4vd8hW?usp=sharing
 
-### Ensure necessary libraries are installed
-!pip install pandas matplotlib seaborn scikit-learn
+## Environment Setup
+Must have the following libraries installed:
+- pandas
+- matplotlib
+- seaborn
+- scikit-learn
 
-### Download the dataset
-!wget -O data.csv "link_to_your_data.csv"
+You can install these using pip:
 
-### Unzip if necessary
-### !unzip data.zip -d data_folder
+```bash
+pip install pandas matplotlib seaborn scikit-learn
+```
 
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-from sklearn.preprocessing import MinMaxScaler, OneHotEncoder
+## Data Preprocessing
 
-# Load the data
-data = pd.read_csv("data.csv")
-
-# Display the data
-data.head()
+In order to preprocess our data, normally we would fill gaps in our data, but because our dataset does not contain any we will skip this step. So, we will first sclae the features in order to make them easier to compare. Then convert the score variable and text into a format that can be easily manipulated by our machine learning model. 
