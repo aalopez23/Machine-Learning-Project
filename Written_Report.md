@@ -155,7 +155,8 @@ y_test_pred = model.predict(X_test)
 train_accuracy = accuracy_score(y_train, y_train_pred)
 test_accuracy = accuracy_score(y_test, y_test_pred)
 ```
-### Model 2: Support Vector Machine
+
+### Model 2: Support Vector Machine (SVM)
 A svm model was chosen for its ability to handle non-linear relationships. Originally with the smaller model it was overfitted with a training accuracy of around 0.625. As of now this model with the 1.6 million tweets is still running. Will run it overnight and update if a result in concluded. Im pretty sure Alan Turing said something like "It works, its just... still working" haha 
 
 ```
